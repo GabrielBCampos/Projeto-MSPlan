@@ -34,7 +34,7 @@ const Login = ({navigation}) => {
 
       if (usuariosEncontrados.length > 0) {
         Alert.alert('Login realizado com sucesso!');
-        // Gabriel aqui você põe um navigation pra próxima tela que tu for criar. exemplo -> navigation.navigate('Home');
+        navigation.navigate('AboutUs');
       } else {
         Alert.alert('Email ou senha incorretos.');
       }
@@ -125,8 +125,8 @@ const Login = ({navigation}) => {
         </LinearGradient>
         </TouchableOpacity>
         <Text style={{color: '#03bafc', fontSize: 16, textAlign: 'center'}}>
-          Dont't have an account?{' '}
-          <Text onPress={() => navigation.navigate('Signup')}>Signup</Text>
+          Não possui uma conta?{' '}
+          <Text onPress={() => navigation.navigate('Signup')}>Crie agora!</Text>
         </Text>
       </View>
     </View>

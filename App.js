@@ -1,4 +1,3 @@
-// In App.js in a new project
 
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -7,6 +6,8 @@ import Login from './screens/Login';
 import Signup from './screens/SignUp';
 import { SQLiteProvider } from 'expo-sqlite';
 import { initializeUsuarioTable } from './service/userService';
+import AboutUs from './screens/AboutUs';
+import ContactUs from './screens/ContactPage';
 
 
 const Stack = createNativeStackNavigator();
@@ -20,6 +21,8 @@ function App() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Signup" component={Signup} />
+          <Stack.Screen name="AboutUs" component={AboutUs} />
+          <Stack.Screen name="ContactUs" component={ContactUs} />
         </Stack.Navigator>
       </NavigationContainer>
     </SQLiteProvider>

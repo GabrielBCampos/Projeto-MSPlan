@@ -33,7 +33,7 @@ const Signup = ({ navigation }) => {
           paddingTop: 40,
         }}>
         <Text style={{ color: 'white', fontSize: 31, fontWeight: 'bold' }}>
-          S.G.Codes
+          Crie sua Conta
         </Text>
       </LinearGradient>
 
@@ -54,11 +54,11 @@ const Signup = ({ navigation }) => {
             color: '#03bafc',
             textAlign: 'center',
           }}>
-          REGISTER
+          REGISTRO
         </Text>
         
         
-        <Text style={{fontSize: 16, color: '#03bafc'}}>Username</Text>
+        <Text style={{fontSize: 16, color: '#03bafc'}}>Usuário</Text>
         <TextInput 
             value={nome}
             onChangeText={setNome}
@@ -85,7 +85,7 @@ const Signup = ({ navigation }) => {
               marginTop: 5,
             }}
         />
-        <Text style={{fontSize: 16, color: '#03bafc'}}>Password</Text>
+        <Text style={{fontSize: 16, color: '#03bafc'}}>Senha</Text>
         <TextInput 
             value={senha}
             onChangeText={setSenha}
@@ -113,13 +113,13 @@ const Signup = ({ navigation }) => {
               marginTop: 50,
               marginBottom: 10,
             }}>
-            <Text style={{ color: 'white', fontSize: 19 }}>SIGNUP</Text>
+            <Text style={{ color: 'white', fontSize: 19 }}>Criar Conta</Text>
           </LinearGradient>
         </TouchableOpacity>
 
         <Text style={{ color: '#03bafc', fontSize: 16, textAlign: 'center' }}>
-          Already have an account?{' '}
-          <Text onPress={() => navigation.navigate('Login')}>Login</Text>
+          Já possui uma conta?{' '}
+          <Text onPress={() => navigation.navigate('Login')}>Entre agora!</Text>
         </Text>
       </View>
     </View>
