@@ -1,6 +1,6 @@
-# 📱 S.G.Codes - Projeto Mobile
+# 📱 MSPlan - Projeto Mobile
 
-Bem-vindo ao repositório do **Projeto Mobile**. Este aplicativo é uma solução robusta desenvolvida com **React Native** e **Expo**, demonstrando um fluxo completo de autenticação, persistência de dados local e navegação intuitiva.
+Bem-vindo ao repositório do **Projeto Mobile MSPlan**. Este aplicativo é uma solução robusta desenvolvida com **React Native** e **Expo**, demonstrando um fluxo completo de autenticação, persistência de dados local e navegação intuitiva.
 
 ## 🚀 Sobre o Projeto
 
